@@ -146,7 +146,7 @@ top: 0;
 left: 0;
 right: 0;
 bottom: 0;
-background-color: rgba(0, 0, 0, 0.80);
+background-color: rgba(0, 0, 0, 0.55);
 content: "";
 }
 .banner-caption {
@@ -253,7 +253,7 @@ background: url("../images/bg-image-2.jpg") 0% 0px no-repeat;
 .object-non-visible {
 opacity: 0;
 filter: alpha(opacity=0);
-color: #787878
+color: rgba(182, 182, 182, 1);
 }
 .object-visible,
 .touch .object-non-visible {
