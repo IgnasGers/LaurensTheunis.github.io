@@ -1,566 +1,767 @@
-﻿
 <!DOCTYPE html>
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!-->
 <html lang="en">
-<!--<![endif]-->
+
     <head>
+
         <meta charset="utf-8">
-        <title>GIP-blog Laurens Theunis</title>
-        <meta name="description" content="Blog">
-        <meta name="author" content="Laurens Theunis">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
 
+        <title>GIP Laurens Theunis</title>
 
-        <!-- Mobile Meta -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="images/favicon.ico">
-
-
-        <!-- Web Fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
-
-
-        <!-- Bootstrap core CSS -->
-        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-
+        <!-- Bootstrap Core CSS -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Font Awesome CSS -->
-        <link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+        <link href="css/animate.css" rel="stylesheet">
 
-
-        <!-- Plugins -->
-        <link href="css/animations.css" rel="stylesheet">
-
-
-        <!-- Worthy core CSS file -->
+        <!-- Custom CSS -->
         <link href="css/style.css" rel="stylesheet">
 
+        <!-- Custom Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 
-        <!-- Custom css -->
-        <link href="css/custom.css" rel="stylesheet">
+
+        <!-- Template js -->
+        <script src="js/jquery-2.1.1.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="js/jquery.appear.js"></script>
+        <script src="js/contact_me.js"></script>
+        <script src="js/jqBootstrapValidation.js"></script>
+        <script src="js/modernizr.custom.js"></script>
+        <script src="js/script.js"></script>
+
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
     </head>
-
-
-    <body class="no-trans">
-        <!-- scrollToTop -->
-        <!-- ================ -->
-        <div class="scrollToTop"><i class="icon-up-open-big"></i></div>
-
-
-        <!-- header start -->
-        <!-- ================ -->
-        <header class="header fixed clearfix navbar navbar-fixed-top">
+    
+    <body>
+        
+        <!-- Start Logo Section -->
+        <section id="logo-section" class="text-center">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
-
-
-                        <!-- header-left start -->
-                        <!-- ================ -->
-                        <div class="header-left clearfix">
-
-
-                            
-
-
-                            <!-- name-and-slogan -->
-                            <div class="site-name-and-slogan smooth-scroll">
-                                <div class="site-name"><a href="#banner">GIP-blog</a></div>
-                                <div class="site-slogan"> Laurens Theunis</div>
-                            </div>
-
-
+                    <div class="col-md-12">
+                        <div class="logo text-center">
+                            <h1>Laurens Theunis</h1>
+                            <span>GIP Website</span>
                         </div>
-                        <!-- header-left end -->
-
-
-                    </div>
-                    <div class="col-md-8">
-
-
-                        <!-- header-right start -->
-                        <!-- ================ -->
-                        <div class="header-right clearfix">
-
-
-                            <!-- main-navigation start -->
-                            <!-- ================ -->
-                            <div class="main-navigation animated">
-
-
-                                <!-- navbar start -->
-                                <!-- ================ -->
-                                <nav class="navbar navbar-default" role="navigation">
-                                    <div class="container-fluid">
-
-
-                                        <!-- Toggle get grouped for better mobile display -->
-                                        <div class="navbar-header">
-                                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-                                                <span class="sr-only">Toggle navigation</span>
-                                                <span class="icon-bar"></span>
-                                                <span class="icon-bar"></span>
-                                                <span class="icon-bar"></span>
-                                            </button>
-                                        </div>
-
-
-                                        <!-- Collect the nav links, forms, and other content for toggling -->
-                                        <div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
-                                            <ul class="nav navbar-nav navbar-right">
-                                                <li class="active"><a href="#banner">Home</a></li>
-                                                <li><a href="#about">About me</a></li>
-                                                <li><a href="#services">Workflows</a></li>
-                                                <li><a href="#portfolio">Teacher Aid</a></li>
-                                                <li><a href="#stage">Stage</a></li>
-                                                
-                                            </ul>
-                                        </div>
-
-
-                                    </div>
-                                </nav>
-                                <!-- navbar end -->
-
-
-                            </div>
-                            <!-- main-navigation end -->
-
-
-                        </div>
-                        <!-- header-right end -->
-
-
                     </div>
                 </div>
             </div>
-        </header>
-        <!-- header end -->
+        </section>
+        <!-- End Logo Section -->
+        
+        
+        <!-- Start Main Body Section -->
+        <div class="mainbody-section text-center">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-md-3">
+                        
+                        <div class="menu-item gold">
+                            <a href="#service-modal" data-toggle="modal">
+                                <i class="fa fa-magic"></i>
+                                <p>Introductie</p>
+                            </a>
+                        </div>
+                        
+                        <div class="menu-item gold">
+                            <a href="#portfolio-modal" data-toggle="modal">
+                                <i class="fa fa-file-photo-o"></i>
+                                <p>It-Autobiography</p>
+                            </a>
+                        </div>
+                        
+                        <div class="menu-item gold">
+                            <a href="#testimonial-modal" data-toggle="modal">
+                                <i class="fa fa-user"></i>
+                                <p>Workflows</p>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="col-md-6">
+                        
+                        <!-- Start Carousel Section -->
+                        <div class="home-slider">
+                            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="padding-bottom: 30px;">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                </ol>
 
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img src="images/about-03.png" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/about-02.jpg" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/about-01.jpg" class="img-responsive" alt="">
+                                    </div>
 
-        <!-- banner start -->
-        <!-- ================ -->
-        <div id="banner" class="banner">
-            <div class="banner-image"></div>
-            <div class="banner-caption">
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- Start Carousel Section -->
+                        
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="menu-item gold responsive">
+                                    <a href="#about-modal" data-toggle="modal">
+                                        <i class="fa fa-area-chart"></i>
+                                        <p>It-profile</p>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="menu-item gold responsive-2">
+                                    <a href="#team-modal" data-toggle="modal">
+                                        <i class="fa fa-users"></i>
+                                        <p>Teacher-aid</p>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="col-md-3">
+                        
+                        <div class="menu-item gold">
+                            <a href="#contact-modal" data-toggle="modal">
+                                <i class="fa fa-envelope-o"></i>
+                                <p>Dankwoord</p>
+                            </a>
+                        </div>
+                        
+                        <div class="menu-item gold">
+                            <a href="#feature-modal" data-toggle="modal">
+                                <i class="fa fa-comment-o"></i>
+                                <p>Stage</p>
+                            </a>
+                        </div>
+                        
+                        <div class="menu-item gold">
+                            <a href="#news-modal" data-toggle="modal">
+                                <i class="fa fa-mortar-board"></i>
+                                <p>Zelfreflectie</p>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Main Body Section -->
+        
+        <!-- Start Copyright Section -->
+        <div class="copyright text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Copyright Section -->
+        
+        
+        <!-- Start Feature Section -->
+        <div class="section-modal modal fade" id="feature-modal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container">
+				
+                    <div class="row">
+
+                        <div class="section-title text-center">
+                            <h3>Stage</h3>
+                            <p>Van Genechten Packaging | IMAS Turnhout</p>
+                        </div>
+                    </div>
+                    <div class="row">
+					<div class="col-md-10">
+					<h4>26 januari - 6 februari</h4>
+					<p>Ontvangst was bangelijk. Aangezien mr Pluys niet aanwezig was heb ik de voormiddag rondgelopen met helpdeskwerker Leon. Na een algemene rondleiding was ik meteen zeer enthousiast om mezelf in te loggen op de server. Leon heeft me ook een algemeen beeld gegeven van welke softwarepakketten gebruikt worden. Ik was verbaasd om te horen dat de meeste pakketten geschreven waren door hun eigen team. Elke applicatie draait op zijn eigen server, dit is nodig omdat VG. in meerdere landen in Europa gevestigd is. De sfeer bij Van Genechten is zeer aangenaam. Doorheen alle afdelingen was iedereen even vriendelijk en even enthousiast. Het gebouw oogt van buitenaf redelijk klein, maar na het magazijn en dergelijke gezien te hebben is dit een massieve constructie waar tijd is gestoken in elk klein detail. </p>
+					</div>
+					</div>
+					<div class="row">
+                            <div class="footer-contact-info">
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="feature">
+                                <i class="fa fa-magic"></i>
+                                <div class="feature-content">
+                                    <h4>Java</h4>
+                                    <p>George toonde me de wonderen van Java. Ik heb hier ook enorm veel van bijgeleerd over C#!</p>
+                                </div>
+                            </div>
+                        </div><!-- /.col-md-3 -->
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="feature">
+                                <i class="fa fa-gift"></i>
+                                <div class="feature-content">
+                                    <h4>Helpdesk</h4>
+                                    <p>Het was een hele verrassing om te mogen meewerken aan de helpdesk. Ik was aangenaam verrast om te zien hoeveel werk er wel niet in werknemersupport word gestoken.</p>
+                                </div>
+                            </div>
+                        </div><!-- /.col-md-3 -->
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="feature">
+                                <i class="fa fa-wordpress"></i>
+                                <div class="feature-content">
+                                    <h4>Wat was mijn vraag</h4>
+                                    <p>Ik ging met de stageperiode in met de vraag:"Waar wil ik in de informatica terecht?". Deze is eindelijk beantwoord.</p>
+                                </div>
+                            </div>
+                        </div><!-- /.col-md-3 -->
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="feature">
+                                <i class="fa fa-plug"></i>
+                                <div class="feature-content">
+                                    <h4>Hardware</h4>
+                                    <p>Zowel over netwerken, als over computers in het algemeen heb ik enorm veel bijgeleerd!</p>
+                                </div>
+                            </div>
+                        </div><!-- /.col-md-3 -->
+                       
+                         </div>   
+                    </div><!-- /.row -->
+					<div class="row">
+					<div class="col-md-10">
+					<h4>Economische analyse van VGP</h4>
+					<h4>Kennismaking met Van Genechten</h4><br><br>
+					<p>Meteen als ik de deuren van Van Genechten binnen wandelde, werd ik heel vriendelijk welkom gewenst door zo goed als iedereen die werkt op het IMAS(IT afdeling van VG).<br>De algemene sfeer was zeer aangenaam maar toch nog steeds professioneel.Toch had ik al meteen door dat er bepaalde factoren waren die ik heel erg serieus moest nemen. Foto's nemen mocht niet en bepaalde informatie werd niet vrijgegeven, ook al had ik deze nodig voor mijn GIP. Op het begin vond ik dit nogal kortzichtig, maar na een algemene rondleiding door het bedrijf had ik meteen door dat 1 fout een erg grote impact zou kunnen hebben op het bedrijf.<br><br><b>Van Genechten Packaging - Eenmanszaak </b><br>Design en productie van verpakkingen.<br>Maandag - Zaterdag, 8:00 tot 16:00<br>Aantalwerknemers(turnhout):<br>Bedienden: 158<br>Arbeiders: 200<br>Totaal: 358<br>Dubbele boekhouding, externe boekhouder, pakket onbekend.<br>Klasse 2 milieuvoorwaarden.<br><br><b>VGP is verdeeld in vele afdelingen:</b><br><b>Costumer contact:</b> het contact tussen VGP en de klant<br><b>Design</b>: Het algemeen uittekenen van de verpakkingen<br><b>Research:</b> Het algemeen onderzoeken van soorten papier/karton, soorten inkt, ...<br><b>IT:</b> Het Imas, dit is dan nog eens onderverdeeld in de programmeurs, analysten, netwerkbeheerders, helpdesk, ...<br><b>Druk:</b> Het algemeen uitprinten, sorteren, en verpakken van het product.<br><b>Verzending:</b> Het algemeen uitzenden van het product.<br><br>Het Imas is ongeveer 1/3 van het hele VGP. Aangezien er meerdere filialen zijn over heel Europa, is communicatie heel erg belangerijk. Hiervoor heeft VGP een aparte IT-afdeling, en werkt deze constant aan het verbeteren van hun eigen communicatie-methoden.Als stagaire voor 2 weken is er niet echt bepaald veel dat je kan doen aan de grote projecten. Als hulpdesk heb ik vele collega's geholpen met hun IT-problemen.<br>Het kantoor is redelijk simpel ingericht, 3 computers, ieders 2 schermen, 1 grote tafel die langs de muur van heel de kamer loopt en een groot whiteboard voor alle interessante onderwerpen die zeker neergeschreven moeten worden.<br><br>VGP streeft ervoor om de klant op elk vlak mogenlijk zo goed mogenlijk te bedienen. Hiervoor wordt er zelfs onderzoek gedaan naar karton-inkt combinaties om er zeker van te zijn dat de klant zeker tevreden gesteld is.<br>VGP heeft niet veel reclame nodig om zijn doelgroep te bereiken. Het is de grootste in België, en staat zeker in de top 5 van heel Europa. Hierdoor zoekt de klant eigenlijk het bedrijf, niet andersom. Turnhout is redelijk centraal gelegen. Het gebouw werd door de jaren heen doorgegeven van generatie op generatie.<br><br><b>Solliciteren bij dit bedrijf?</b><br>Ja, de sfeer is aangenaam en professioneel. Alle werknemers kunnen met elkaar omgaan, waardoor alles meteen warmer aanvoelt. Er is op noch de werkomstandigheden, nog de werksfeer iets fout aan te merken. Het is een gebouw gevuld met mensen met dezelfde ambities en interesses, waardoor er veel sneller banden worden gelegd.</p>
+					</div></div>
+					
+					<div class="row">
+					<div class="col-md-10">
+					<h4>Reportage photo concernant le stage</h4>
+					<br><br>
+					<iframe width="560" height="315" src="http://www.vangenechten.com/" frameborder="0" allowfullscreen></iframe>
+					</div>
+					</div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- End Feature Section -->
+        
+        
+        
+        <!-- Start Portfolio Section -->
+        <div class="section-modal modal fade" id="portfolio-modal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-8 col-md-offset-2 object-non-visible" data-animation-effect="fadeIn">
-                            <p><h2 class="text-center">GIPblog <span>Laurens Theunis</span></h2></p>
-                        <p class="lead text-center">Dit is de mijn GIP-blog. Hier kunt u al mijn GIP-taken en dergelijke terugvinden. Het was de bedoeling om een static site generator te gebruiken om deze website te creëren, maar aangezien ik me beter voel bij HTML/CSS heb ik deze dan toch maar gebruikt.</p>
-                            <p class="lead text-center">Mijn naam is Laurens Theunis. Ik ben een student informatica-beheer op het Immaculata instituut te Oostmalle. Sinds mijn geboorte ben ik al bezig geweest met IT en alles wat hier mee te maken komt. Als u hier meer over wenst te lezen, kan ik u altijd verwijzen naar mijn IT-autobiography.</p>
-                            <p class="lead text-center">Ik hoop dat deze site mooi wordt opgevuld tot wat ik uiteindelijk met trots kan noemen, mijn website. In de toekomst zou ik graag willen verder groeien in de ICT-sector, met softwareontwikkeling op het oog. Ik heb nog een lange afstand af te leggen, maar elke tocht begint met een kleine stap.</p>
+                        <div class="section-title text-center">
+                            <h3>It-Autobiography</h3>
+                            <p>The universe tends to unfold as it should, but sometimes it just needs a little push.</p>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <!-- banner end -->
-
-
-        <!-- section start -->
-        <!-- ================ -->
-        <div class="section clearfix object-non-visible" data-animation-effect="fadeIn">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1 id="about" class="title text-center">IT-<span>Autobiography</span></h1>
-                        <p class="lead text-center">Every journey starts with a single step</p>
-                        <div class="space"></div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <img src="images/section-image-1.png" alt="">
-                                <div class="space"></div>
-                            </div>
-                            <div class="col-md-6">
-                                <p>Ever since i was a child, i've been obsessed with computer. We didn't have one at home, so i experimented with the ones available at my elementary school. Even though i didn't know the words on the monitor, i knew alot about what everything did. We eventually got one at home after my teachers asked my parents who the IT-freak was at home. They were amazed to hear that both my parents didn't know anything about computers, and we didn't even have one at home.</p>
-                                <p> Each and every year, i got a new Gameboy with a new Pokémon game. I wasn't that social at the time, so being able to hide in a world full of wonders was amazing. After some time, i got intrigued with how it all worked. How was it possible to put in a small cartridge in a device, and make it display a game on the screen? I started taking things apart and analyzing what it did. It started with my old Gameboys, but eventually with the old computers we had at home. That's how i got into hardware. I knew what everything did, and with a little help of Google, i knew what their names were. I started getting more into computers, and more into games aswell. I mainly played 2 old MMORPG's, "MU Online" and "Runescape. Eventhough i couldn't understand what everyone was saying, little by little, i started recognizing words and started connecting them with certain actions. For example, when someone was selling something, they would say "Selling", followed by the name of the item. That's how i learned to understand English.</p>
-                                <p>My first 2 years in highschool were in another school called "Vita et Pax". You could only follow Latin classes which were boring and uninteresting to me. At that time, i started watching alot of Youtube videos about computers and alot of Anime. Why is that important? Well, the videos got me to the point where i could understand English fluently, Anime got me to the point where i could read English fluently. As i was always intrigued with computers, i started learning the more "evil" side of the internet. I learned what "Command prompt" was, and after abusing it at my old school, the teachers weren't even mad i did it. They knew Latin didn't interest me, and pointed out to my parents that i should follow IT & Networks at a small school called "Immaculata" in Oostmalle. So now i'm here, and i have learned alot since i first stepped into this gate of IT heaven.</p>
-                                <ul class="list-unstyled">
-                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Visit my <a href="itp.html">IT-profile</a>!</li>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="feature-2">
+                                <div class="media">
                                     
+                                    <div class="media-body">
+                                        
+                                        <p>Ever since i was a child, i've been obsessed with computer. We didn't have one at home, so i experimented with the ones available at my elementary school. Even though i didn't know the words on the monitor, i knew alot about what everything did. We eventually got one at home after my teachers asked my parents who the IT-freak was at home. They were amazed to hear that both my parents didn't know anything about computers, and we didn't even have one at home.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- /.col-md-4 -->
+						
+						<div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="feature-2">
+                                <div class="media">
+                                    
+                                    <div class="media-body">
+                                        
+                                        <p>Each and every year, i got a new Gameboy with a new Pokémon game. I wasn't that social at the time, so being able to hide in a world full of wonders was amazing. After some time, i got intrigued with how it all worked. How was it possible to put in a small cartridge in a device, and make it display a game on the screen? I started taking things apart and analyzing what it did. It started with my old Gameboys, but eventually with the old computers we had at home. That's how i got into hardware. I knew what everything did, and with a little help of Google, i knew what their names were. I started getting more into computers, and more into games aswell. I mainly played 2 old MMORPG's, "MU Online" and "Runescape. Eventhough i couldn't understand what everyone was saying, little by little, i started recognizing words and started connecting them with certain actions. For example, when someone was selling something, they would say "Selling", followed by the name of the item. That's how i learned to understand English.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- /.col-md-4 -->
+						
+						<div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="feature-2">
+                                <div class="media">
+                                    
+                                    <div class="media-body">
+                                        
+                                        <p>My first 2 years in highschool were in another school called "Vita et Pax". You could only follow Latin classes which were boring and uninteresting to me. At that time, i started watching alot of Youtube videos about computers and alot of Anime. Why is that important? Well, the videos got me to the point where i could understand English fluently, Anime got me to the point where i could read English fluently. As i was always intrigued with computers, i started learning the more "evil" side of the internet. I learned what "Command prompt" was, and after abusing it at my old school, the teachers weren't even mad i did it. They knew Latin didn't interest me, and pointed out to my parents that i should follow IT & Networks at a small school called "Immaculata" in Oostmalle. So now i'm here, and i have learned alot since i first stepped into this gate of IT heaven.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- /.col-md-4 -->
+                        
+                </div>
+                
+            </div>
+        </div>
+		</div>
+        <!-- End Portfolio Section -->
+        
+        
+        <!-- Start About Us Section -->
+        <div class="section-modal modal fade" id="about-modal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title text-center">
+                            <h3>It-Profile</h3>
+                            <p>As of May 2015</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="about-text">
+								<p>Laurens Theunis, proud IT student & Hardcore gamer. Everything that i have learned, either programming or hardware, has something to do with games. My feel for HTML started on an old game called Neopets, my feel for hardware started with my GameBoy. Don't take me wrong though, i've had the less-interesting courses. Those are the ones that require you to focus on less fun parts of programming, but automatically make the fun parts better. I always used some kind of game to learn something.<p>
+							<div class="row">
+                                    <div class="col-md-4 col-sm-6">
+                                        <ul>
+                                            <li><i class="fa fa-check-square"></i>Coded Andoid applications</li>
+                                            <li><i class="fa fa-check-square-o"></i>Coded Websites</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <ul>
+                                            <li><i class="fa fa-check-square"></i>Coded Singleplayer Games</li>
+                                            <li><i class="fa fa-check-square-o"></i>Coded Multiplayer Games</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <ul>
+                                            <li><i class="fa fa-check-square"></i>Coded Chat Services</li>
+                                            <li><i class="fa fa-check-square-o"></i>Coded loads of stuff</li>
+                                        </ul>
+                                    </div>
+                                </div><!-- /.row -->
+                            </div>
+                        </div>
+                    </div><!-- /.row -->
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="skill-shortcode">
+                        
+                                <!-- Progress Bar -->
+                                <div class="skill">
+                                    <p>Web Design</p>          
+                                    <div class="progress">         
+                                        <div class="progress-bar" role="progressbar"  data-percentage="60">
+                                            <span class="progress-bar-span" >90/100</span>
+                                            <span class="sr-only">90% Complete</span>
+                                        </div>
+                                    </div>  
+                                </div>
+
+                                <!-- Progress Bar -->
+                                <div class="skill">
+                                    <p>HTML & CSS</p>          
+                                    <div class="progress">         
+                                        <div class="progress-bar" role="progressbar"  data-percentage="95">
+                                            <span class="progress-bar-span" >95/100</span>
+                                            <span class="sr-only">95% Complete</span>
+                                        </div>
+                                    </div>  
+                                </div>
+
+                                <!-- Progress Bar -->
+                                <div class="skill">
+                                    <p>C#</p>          
+                                    <div class="progress">         
+                                        <div class="progress-bar" role="progressbar"  data-percentage="80">
+                                            <span class="progress-bar-span" >85%</span>
+                                            <span class="sr-only">85% Complete</span>
+                                        </div>
+                                    </div>  
+                                </div>
+
+                                <!-- Progress Bar -->
+                                <div class="skill">
+                                    <p>Java</p>          
+                                    <div class="progress">         
+                                        <div class="progress-bar" role="progressbar"  data-percentage="100">
+                                            <span class="progress-bar-span" >80%</span>
+                                            <span class="sr-only">80% Complete</span>
+                                        </div>
+                                    </div>  
+                                </div>
+
+                                <!-- Progress Bar -->
+                                <div class="skill">
+                                    <p>Javascript</p>          
+                                    <div class="progress">         
+                                        <div class="progress-bar" role="progressbar"  data-percentage="70">
+                                            <span class="progress-bar-span" >75%%</span>
+                                            <span class="sr-only">75% Complete</span>
+                                        </div>
+                                    </div>  
+                                </div>
+								
+								<!-- Progress Bar -->
+                                <div class="skill">
+                                    <p>Hardware</p>          
+                                    <div class="progress">         
+                                        <div class="progress-bar" role="progressbar"  data-percentage="100">
+                                            <span class="progress-bar-span" >85%</span>
+                                            <span class="sr-only">80% Complete</span>
+                                        </div>
+                                    </div>  
+                                </div>
+								
+								<!-- Progress Bar -->
+                                <div class="skill">
+                                    <p>Social</p>          
+                                    <div class="progress">         
+                                        <div class="progress-bar" role="progressbar"  data-percentage="100">
+                                            <span class="progress-bar-span" >100%</span>
+                                            <span class="sr-only">100% Complete</span>
+                                        </div>
+                                    </div>  
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="custom-tab">
+                        
+                                <ul class="nav nav-tabs nav-justified" role="tablist">
+                                    <li class="active"><a href="#tab-1" role="tab" data-toggle="tab">Mijn missie</a></li>
+                                    <li><a href="#tab-2" role="tab" data-toggle="tab">Mijn visie</a></li>
+                                    <li><a href="#tab-3" role="tab" data-toggle="tab">Mijn geschiedenis</a></li>
                                 </ul>
+
+                                <div class="tab-content">
+
+                                    <div class="tab-pane active" id="tab-1">
+                                        <p>Eerlijk gezegd weet ik niet waar ik wil geraken, gewoon door het feit dat ik niet weet wat er allemaal te beleven valt. Wat ik wel weet is dat het hoogstwaarschijnlijk in de richting van informatica gaat gaan, aangezien mijn roots daar toch echt wel een beetje vaster zitten. Het probleem is een beetje dat ik interesse kan krijgen over de meest uitlopende onderwerpen en zolang ik dit beleef, is het neerzetten van een keuze redelijk moeilijk.</p>
+                                        <p>Moest ik verder gaan in de IT-wereld, zou ik het liefste programmeren combineren mijn interesse voor wetenschappen. Dit kan door het ontstaan van de richting “Bio-informatica”, wat dus gaat over leren IT toe te passen op wetenschappen. Zo kan ik het probleem van uitlopende onderwerpen oplossen door het te limiteren naar 2 leuke interesses.</p>
+                                     </div>
+
+
+                                    <div class="tab-pane" id="tab-2">
+                                        <p>De IT-wereld wordt dagelijks een aantal duizenden petabytes groter en hierbij ook onze kennis en interesse. Als IT-er vind ik het dan ook zalig elke dag te achterhalen wat er is gebeurt in de actualiteit. Van gamepatches tot nieuwe hardware die uitkwam, dagelijks zat ik op mijn 5incher te kijken naar hoe informatica eigenlijk de wereld vormt geeft zoals we hem nu kennen.</p>
+                                        <p>Toch heb ik dit jaar toch wel een bepaalde les geleerd. Een les die iedereen nooit uit het hoofd mag verliezen:<br><b>Hoe leuk de wereld achter je scherm ook wel niet kan zijn, hoe interessant sommige discussies op forums ook wel niet kunnen worden, hoe hyped een nieuw spel ook maar kan zijn, er is een echte wereld daarbuiten die duizenden keren mooier kan zijn in welke game engine dan ook.</b><br>Dus ik moet mezelf echt wel eens een laptop aanschaffen..</p>
+                                    </div>
+
+
+                                    <div class="tab-pane" id="tab-3">
+                                        <p>Zoals als vermeld in mijn Autobiography, de vonk voor mijn interesse naar informatica toe begon met het uiteenhalen van mijn GameBoy. Hetgeen wat van die vonk een heel erg groot vuur heeft gemaakt, is mijn interesse voor games. Niet enkel het ‘spel’ gedeelte, ik heb het over de volledige ervaring. Mijn liefde voor games ging zo diep dat ik stuk voor stuk onbewust bijleerde over zowel software als hardware. Voor meer informatie over hoe alles is begonnen, kunt u gerust mijn It-autobiography bekijken.</p>
+                                    </div>
+
+                                </div><!-- /.tab-content -->
+
                             </div>
                         </div>
-                                                                    </div>
-                                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- End About Us Section -->
+        
+        
+        <!-- Start Service Section -->
+        <div class="section-modal modal fade" id="service-modal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title text-center">
+                            <h3>Welkomswoord</h3>
+                            <p>Who is Laurens Theunis?</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="feature-2">
+                                <div class="media">
+                                    <i class="fa fa-magic pull-left"></i>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Introductie</h4>
+                                        <p>Mijn naam is Laurens Theunis, student informatica-beheer op het Immaculata instituut te Oostmalle. Wat u hier zit is wat ik met trots mijn GIP kan noemen. Dit is het resultaat van het meest aangename en vernieuwende jaar dat ik ooit heb beleefd. Tegenover mijn vorige jaren heb ik enorm veel bijgeleerd en ik hoop dat u dit ook kan merken.</p>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                        </div><!-- /.col-md-4 -->
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="feature-2">
+                                <div class="media">
+                                    <i class="fa fa-css3 pull-left"></i>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Veranderingen website</h4>
+                                        <p>Na de stageperiode wou ik een hele ander kant opgaan met mijn website. Niet wetende welk pad te volgen in de groote wereld wat men noemt het 'internet', heb ik er nooit echt eentje kunnen uitpikken. Tijdens onze lessen softwareontwikkeling waren we bezig over Nancy webservers en markdown parsers. Ik heb altijd al moeite gehad met Static Site Generators en opeens kreeg ik het idee om een programma te schrijven dat automatisch een map scande voor markdownbestanden, deze vertaalde naar HTML, en dan op de juiste plekken terugscreef in een HTML bestand. Dit werkte eigenlijk redelijk goed, maar uiteindelijk wou ik toch al mijn moeite in HTML/CSS/JS kunnen steken.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- /.col-md-4 -->
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="feature-2">
+                                <div class="media">
+                                    <i class="fa fa-wordpress pull-left"></i>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Inhoud</h4>
+                                        <p>
+											<b>Introductie :</b>Welkomswoord, Geschiedenis website, Inhoud<br><br>
+											<b>It-Autobiography :</b> It-Autobiography<br><br>
+											<b>Workflows:</b> Workflows<br><br>
+											<b>It-profile :</b> It-profile<br><br>
+											<b>Teacher-aid :</b> Teacher-aid, Ondertiteling<br><br>
+											<b>Dankwoord :</b> Dankmail<br><br>
+											<b>Stage :</b> Stageverslag, Case study, Economische details, Reportage, Huisstijl<br><br>
+											<b>Zelfreflectie :</b> Zelfreflectie<br><br>
+											
+										</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- /.col-md-4 -->
+                        </div><!-- /.row -->
                 </div>
+                
+                
+                
             </div>
         </div>
-        <!-- section end -->
-
-
-        <!-- section start -->
-        <!-- ================ -->
-        <div class="section translucent-bg bg-image-1 blue">
-            <div class="container object-non-visible" data-animation-effect="fadeIn">
-                <h1 id="services" class="text-center title">Workflows</h1>
-                <div class="space"></div>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="media">
-                            <div class="media-body text-right">
-                                <h4 class="media-heading">Introdructie Octopress</h4>
-                                <p>Het installeren van Octopress zelf duurt niet zo lang maar de voorbereiding die ervoor komt is best wel ingewikkeld om zonder enige ervaring of hulp uit te vinden. </p>
-                            </div>
-                            <div class="media-right">
-                                <i class="fa fa-check"></i>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="media-body text-right">
-                                <h4 class="media-heading">Installeren van choco</h4>
-                                <p>In cmd: @powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin</p>
-                            </div>
-                            <div class="media-right">
-                                <i class="fa fa-check"></i>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="media-body text-right">
-                                <h4 class="media-heading">Installeren van Ruby</h4>
-                                <p>In CMD: choco install Ruby. Dit installeert het Ruby platform dat nodig is voor Octopress</p> <br><br><br>
-                            </div>
-                            <div class="media-right">
-                                <i class="fa fa-check"></i>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="media-body text-right">
-                                <h4 class="media-heading">Installeren van GIT</h4>
-                                <p>In CMD: choco install git. Dit installeert het GIT platform dat nodig is om op Github te pushen</p>
-                            </div>
-                            <div class="media-right">
-                                <i class="fa fa-check"></i>
-                            </div>
-                        </div>
-                        
-                        
-                        
-                    </div>
-                    <div class="space visible-xs"></div>
-                    <div class="col-sm-6">
-                        <div class="media">
-                            <div class="media-left">
-                                <i class="fa fa-check"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Installeren van Ruby Dev Kit</h4>
-                                <p> http://rubyinstaller.org/downloads/ , open cmd in de map waar het geextract is, dan: ruby dk.rb init, dan ruby dk.rb install</p> <br>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="media-left">
-                                <i class="fa fa-check"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Installeren van Octopress</h4>
-                                <p>Dit gebeurt via: git clone git://github.com/imathis/octopress.git Titel_van_de_werkmap</p> <br><br>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="media-left">
-                                <i class="fa fa-check"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Gebruik van octopress</h4>
-                                <p>Eerst moeten we bepaalde "Gems" installeren vooraleer we octopress kunnen gebruiken<br>
-
-
-dit doen we in Git bash(cd naar je werkmap) via:<br>
-
-
-1. gem install bundler<br>
-
-
-2. bundle install<br></p>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="media-left">
-                                <i class="fa fa-check"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Installeren van Rake</h4>
-                                <p>Als alles goed is gelopen, kunnen we nu:<br><br>
-
-
->Rake install<br>
->>Rake generate && rake preview<br><br>
-
-
-
-
-surf nu naar localhost: 4000<br><br>
-
-
-Voila, octopress is draaiend.<br>
-
-
-
-
-
-
-om nieuwe posts te maken:<br>
-> new_post["Titelvandepost"]<br><br>
-
-
-
-
-om nieuwe paginas te maken:<br>
-> new_post["Titelvandepagina]<br><br></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- section end -->
-
-
+        <!-- End Service Section -->
         
-
-
-        <!-- section start -->
-        <!-- ================ -->
-        <div class="container">
-			<div class="row">
-				
-                <h1 class="text-center title" id="portfolio"><br>Teacher-Aid</h1>
-                <div class="col-sm-4">
-                <P STYLE="text-align: center;"><h3>Inleiding</h3></p>
-                <P STYLE="text-align: center;">Het teacher-aid project is gericht op het overbrengen van informatie van de leerling naar leerkracht toe. Over het algemeen vond ik Teacher-Aid zeer geslaagd!</p>
+        
+        <!-- Start Team Member Section -->
+        <div class="section-modal modal fade" id="team-modal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
                 
-				
-				</div>
-                <div class="col-sm-4">
-                <P STYLE="text-align: center;"><h3>Lagere school</h3></p>
-                <P STYLE="text-align: center;">Samen met <a href="http://wardadriaensen.github.io/home/">Ward</a> kregen we de opdracht om de leerkrachten van de lagere school bij te schaven in het gebruik van het Smartboard. Dit werd meteen al een heel erg uitdagende opdracht aangezien we zelf niet beschikte over het soort Smartboards die men gebruikten.</p>
-                
-				
-				</div>
-                <div class="col-sm-4">
-                <P STYLE="text-align: center;"><h3>Middelbare school</h3></p>
-                <P STYLE="text-align: center;">Samen met <a href="http://michielsegers.github.io/">Michiel</a> kregen we de opdracht om de leerkrachten van de middelbare school bij te schaven in het gebruik van Evernote. Dit was heel erg leuk aangezien ik het platform zelf al gebruikte.</p>
-                
-				
-            </div>
-			</div>
-                
-                
-                
-        </div>
-        <!-- section end -->
-		<!--section start -->
-
-
-
-<div class="default-bg space blue">
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <h1 class="text-center title" id="stage"> <font color="black"><br>Stage</font></h1>
-            </div>
-        </div>
-    </div>
-
-</div>
-<!--
-
- section end 
-
--->
-        <!-- STAGE SHIT--> <!-- section start -->
-<!-- section start -->
-<div class="default-bg space black">
-	<div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <h2 class="text-center">Inleiding</h2>
-            </div>
-        </div>
-    </div>
-</div>
-<!--section end -->
-<!--INLEIDING -->
-<div class="section clearfix object-non-visible" data-animation-effect="fadeIn">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1 id="about" class="title text-center">Stage bij<span> IMAS (Van Genechten)</span></h1>
-                        <p class="lead text-center">26 januari - 6 februari </p>
-                        <div class="space"></div>
+                <div class="container">
+                    <div class="row">
+					
+                        <div class="section-title text-center">
+                            <h3>Teacher Aid</h3>
+                            <p>Leren komt langs beide kanten</p>
+                        </div>
+                    </div>
+                    <div class="row">
+					<div class="col-md-12 col-sm-6">
+					<p>Het teacher-aid project is gericht op het overbrengen van informatie van de leerling naar leerkracht toe. Over het algemeen vond ik Teacher-Aid zeer geslaagd!</p>
+					</div>
+                        <div class="col-md-6 col-sm-6">
+                            <h4>Lagere school</h4>
+							<p>Samen met Ward kregen we de opdracht om de leerkrachten van de lagere school bij te schaven in het gebruik van het Smartboard. Dit werd meteen al een heel erg uitdagende opdracht aangezien we zelf niet beschikte over het soort Smartboards die men gebruikten.</p>
+                        </div>
+						
+					
+                        <div class="col-md-6 col-sm-6">
+                            <h4>Middelbare school</h4>
+							<p>Samen met Michiel kregen we de opdracht om de leerkrachten van de middelbare school bij te schaven in het gebruik van Evernote. Dit was heel erg leuk aangezien ik het platform zelf al gebruikte.</p>
+                        </div>
                         <div class="row">
-                            <div class="col-md-6">
-                                Foto hier
-                                <div class="space"></div>
-                            </div>
-                            <div class="col-md-6">
-                                <p>Ontvangst was bangelijk. Aangezien mr Pluys niet aanwezig was heb ik de voormiddag rondgelopen met helpdeskwerker Leon. Na een algemene rondleiding was ik meteen zeer enthousiast om mezelf in te loggen op de server. Leon heeft me ook een algemeen beeld gegeven van welke softwarepakketten gebruikt worden. Ik was verbaasd om te horen dat de meeste pakketten geschreven waren door hun eigen team. Elke applicatie draait op zijn eigen server, dit is nodig omdat VG. in meerdere landen in Europa gevestigd is. De sfeer bij Van Genechten is zeer aangenaam. Doorheen alle afdelingen was iedereen even vriendelijk en even enthousiast. Het gebouw oogt van buitenaf redelijk klein, maar na het magazijn en dergelijke gezien te hebben is dit een massieve constructie waar tijd is gestoken in elk klein detail.
-</p>
-                                
-                                
-                            </div>
-                        </div>
-                                                                    </div>
-                                        </div>
-                                    </div>
-                                </div>
-<!-- section start -->
-<div class="default-bg space black">
-	<div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <h2 class="text-center">Verloop</h2>
+                        <div class="col-md-6 col-sm-6">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/NiQZ9h77Cmo" frameborder="0" allowfullscreen></iframe>
+						</div>
+						
+						<div class="col-md-6 col-sm-6">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/DSdWQXgtJ9I" frameborder="0" allowfullscreen></iframe>
+						</div>
+						
+						<!-- /.row --></div>
+                
             </div>
         </div>
-    </div>
-</div>
-<!--section end -->        
-		<div class="col-md-12 col-md-offset-2 object-non-visible" data-animation-effect="fadeIn">
-            <div class="banner-image"></div>
-			<div class="container">
-                <div class="row">
-                    
-		
-                
-                <div class="space"></div>
-                <div class="row">
-                    <div class="col-sm-8">
-                        <div class="media">
-                            <div class="media-body text-right">
-                                <h4 class="media-heading">Dag 1</h4>
-                                <p>Mijn collega en begeleider Leon leren kennen. Meteen aan de slag gegaan met leren van de gebruikte software en met het te resetten van smartphones. Daarna een kleine introductie gekregen over "CFEngine 3.6" van Joeri en Pascal. Tussenin kleine taken gingen we mensen helpen die met problemen zaten.</p>
-                            </div>
-                            <div class="media-right">
-                                <i class="fa fa-check"></i>
-                            </div>
+		</div>
+		</div>
+        <!-- End Team Member Section -->
+        
+        
+        <!-- Start Latest News Section -->
+        <div class="section-modal modal fade" id="news-modal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
                         </div>
-                        <div class="media">
-                            <div class="media-body text-right">
-                                <h4 class="media-heading">Dag 2</h4>
-                                <p>Met gebruik van Teamviewer en VPN mensen vanop afstand een computer gebruiksklaar gemaakt. Verder nog meer over CFEngine geleerd, toch nog steeds moeilijk om nog helemaal te kunnen volgen. Ook hebben we op een kraan een kabel moeten patchen </p>
-                            </div>
-                            <div class="media-right">
-                                <i class="fa fa-check"></i>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="media-body text-right">
-                                <h4 class="media-heading">Dag 3</h4>
-                                <p>Verder nog patchwerk, en dan voor de rest meegevolgd hoe mijn collegas in de war geraakte door de ingewikkelde syntaxen van CFE.</p>
-                            </div>
-                            <div class="media-right">
-                                <i class="fa fa-check"></i>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="media-body text-right">
-                                <h4 class="media-heading">Dag 4</h4>
-                                <p>Configureren van tablets voor de nieuwe mailserver. Organiseren van alle reserve toetsenborden. Uitleg gekregen over de research van soorten karton(Dichtheid, weerstand, plooibaarheid, ...) </p>
-                            </div>
-                            <div class="media-right">
-                                <i class="fa fa-check"></i>
-                            </div>
-                        </div>
-						
-                        <div class="media">
-                            <div class="media-body text-right">
-                                <h4 class="media-heading">Dag 5</h4>
-                                <p>Algemeen rondhelpen. Verder Ubuntu installeren op meerdere laptops.</p>
-                            </div>
-                            <div class="media-right">
-                                <i class="fa fa-check"></i>
-                            </div>
-                        </div>
-						
-						<div class="media">
-                            <div class="media-body text-right">
-                                <h4 class="media-heading">Dag 6</h4>
-                                <p>Deze week willen ze me meer in de software richting duwen, dus hebben ze me een cursus Java gegeven met uitleg. Deze was na een uur begrepen. Java is bangelijk.</p>
-                            </div>
-                            <div class="media-right">
-                                <i class="fa fa-check"></i>
-                            </div>
-                        </div>
-						
-						<div class="media">
-                            <div class="media-body text-right">
-                                <h4 class="media-heading">Dag 7</h4>
-                                <p>Dieper in Java gegaan. Geleerd hoe sockets werken en hoe deze te gebruiken om een client-server applicatie te schrijven. </p>
-                            </div>
-                            <div class="media-right">
-                                <i class="fa fa-check"></i>
-                            </div>
-                        </div>
-						
-						<div class="media">
-                            <div class="media-body text-right">
-                                <h4 class="media-heading">Dag 8</h4>
-                                <p>Heel de dag voor mijn GIP gewerkt.(Huisstijl, ...)</p>
-                            </div>
-                            <div class="media-right">
-                                <i class="fa fa-check"></i>
-                            </div>
-                        </div>
-						
-
-                        
-                        </div>
-						</div>
-                    </div>
-                    
                     </div>
                 </div>
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title text-center">
+                            <h3>Zelfreflectie</h3>
+                            <p>Van kind tot nu</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10">
+                            <div class="latest-post">
+                                <img src="images/blog-01.jpg" class="img-responsive" alt="">
+                                <h4><a href="#">Wat er is verandert</a></h4>
+                                <div class="post-details">
+                                    <ul>
+                                        <li><i class="fa fa-user"></i> Autheur : Laurens Theunis</li>
+                                        <li><i class="fa fa-calendar"></i> 12 Mei, 2015</li>
+                                        <li><i class="fa fa-tag"></i> #RealWords</li>
+                                    </ul>
+                                </div>
+							<p>Dit jaar is goed begonnen. Punten waren redelijk, vrienden waren O.K., familie was trots. Hoe verder we in het jaar kwamen, hoe meer er begon tegen te slagen. Vrienden begonnen zich te rug te keren, mensen keken me niet meer aan, punten gingen achteruit, het ging niet goed.<br>Ergens hoopte ik op een of andere magische oplossing en bleef ik maar school aan de kant schuiven. Mijn leerkrachten begonnen zelfs te denken dat ik het volledig had opgegeven, maar dat is nooit zo geweest. Ik heb diep gezeten, hard gevochten, veel meegemaakt en er is niets wat iemand nog naar me kan gooien dat me laat stoppen om mijn doel te bereiken.<br>Ik heb vanaf de laatste dagen van april er alles aan gedaan om zoveel mogenlijk in te halen. Het was genoeg geweest. Taak per taak kwam ik een stukje dichterbij om mijn GIP af te werken.<br>Sommige dingen natuurlijk beter als anders, maar over het algemeen heb ik op een redelijk korte periode veel kunnen inhalen, waardoor ik realiseerde dat als je taken en opdrachten doseerd en op het juiste moment aanpakt, stress geen factor meer is van je dagelijkse schoolleven.<br><br><b>Besluit</b><br>Het was een kort jaar met veel gebeurtenissen, veel confrontaties en veel situaties die zowel leuk als vervelend konden zijn. Ik zal deze herinneringen meenemen voor de rest van mijn leven en zal deze koesteren tot het eind.<br><br>Mijn naam is Laurens Theunis, trotse student informatica-beheer, en dit was mijn GIP.<br>Bedankt voor het lezen.</p>                                
+                            </div>
+                        </div>
+                        
+                        
+                        
+                    </div>
+                </div>
+                
             </div>
-      
-        <!-- section end -->
-
-
+        </div>
+        <!-- End Latest News Section -->
         
         
-        <!-- JavaScript files placed at the end of the document so the pages load faster
-        ================================================== -->
-        <!-- Jquery and Bootstap core js files -->
-        <script type="text/javascript" src="plugins/jquery.min.js"></script>
-        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-
-
-        <!-- Modernizr javascript -->
-        <script type="text/javascript" src="plugins/modernizr.js"></script>
-
-
-        <!-- Isotope javascript -->
-        <script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
         
-        <!-- Backstretch javascript -->
-        <script type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
-
-
-        <!-- Appear javascript -->
-        <script type="text/javascript" src="plugins/jquery.appear.js"></script>
-
-
-        <!-- Initialization of Plugins -->
-        <script type="text/javascript" src="js/template.js"></script>
-
-
-        <!-- Custom Scripts -->
-        <script type="text/javascript" src="js/custom.js"></script>
-
-
+        <!-- Start Contact Section -->
+        <div class="section-modal modal fade contact" id="contact-modal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title text-center">
+                            <h3>Dank</h3>
+                            <p>Een prachtig gebaar.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        
+                        <div class="col-md-6">
+                            <div class="footer-contact-info">
+                                <p><b>Dank aan Van Genechten Packaging</b><br>Geachte collega’s,<br>hierbij wil ik, Laurens Theunis, jullie hartelijk bedanken voor de stage die mij jullie hebben geboden. Ik werd meteen hartelijk en warm ontvangen en voelde me meteen in de groep.Ik hoop dat ik een klein beetje heb kunnen meewerken, ik heb er persoonlijk ongelofelijk veel van over gehouden.<br><br>Ik ging de stageperiode in met een gevoel alsof ik het meeste al wist over informatica, maar na de eerste dag was mijn ongelijk al bewezen. De kennis en herinneringen die ik er van over heb gehouden zal ik voor eeuwig koesteren.<br><br>Ik denk dat ik eindelijk een kant heb kunnen kiezen tussen hard- en software. Ook al is de rode draad doorheen mijn leven eigenlijk hardware was, ligt softwareontwikkeling wel dichter bij me. Begrijp me niet verkeerd, werken aan de helpdesk was ongelofelijk vernieuwend, maar de tijd die heb gespendeerd aan het meevolgen van de CF-Engine opstelling was heel erg intrigerend.<br><br>Ik wens jullie allemaal een voor een het beste toe tegenover de toekomst en ik hoop dat onze wegen ooit nog eens kruisen.<br><br>Met vriendelijke groet,<br>Laurens Theunis</p>
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="footer-contact-info">
+								<p><b>Dank aan Immaculata</b><br>Geachte leerkrachten en leerlingen,<br>hierbij wil ik, Laurens Theunis, jullie hartelijk bedanken voor het zalige jaar dat jullie hebben gegunt. In de klas werd ik meteen aanvaard. Alle leuke momenten, grappige mopjes of kinderachtige stunts hebben dit een onvergetelijk jaar gemaakt.<br><br>Ik ben niet de beste leerling geweest, ook niet de beste vriend. Dit jaar was heel erg rakend, op veel manieren. Dan nog zijn we er allemaal op een manier sterker uitgekomen.<br><br>Aan elke leerkracht die ooit moeite in mij heeft gestoken. <b>Bedankt.</b> Ik kan dit woord niet genoeg uitspreken. De kansen die jullie me hebben gegeven het ik te laat vastgegrepen, maar ik hoop dat al mijn week van de laatste perioden een effect hebben op zowel mijn punten als mijn beeld tegenover jullie.<br><br>Ik wens jullie allemaal een voor een het beste toe tegenover de toekomst en ik hoop dat onze wegen ooit nog eens kruisen.<br><br>Met vriendelijke groet,<br>Laurens Theunis</p>                                
+                            </div>
+                        </div>
+                        
+                        
+                        
+                    </div><!--/.row -->
+                    
+                </div>
+                
+            </div>
+        </div>
+        <!-- End Contact Section -->
+        
+        
+         <!-- Start Testimonial Section -->
+        <div class="section-modal modal fade contact" id="testimonial-modal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title text-center">
+                            <h3>Workflows</h3>
+                            <p>Static Gen vs Homebrew vs HTML/CSS/JS</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        
+                        <div class="col-md-6">
+                            <div class="testimonial">
+                                
+                                <h4>Static Gen & Homebrew</h4>
+                                <div class="speech">
+                                    <p><b>Introdructie Octopress</b><br>Het installeren van Octopress zelf duurt niet zo lang maar de voorbereiding die ervoor komt is best wel ingewikkeld om zonder enige ervaring of hulp uit te vinden.<br><br><b>Installeren van choco</b><br>In cmd: @powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin<br><br><b>Installeren van Ruby</b><br>In CMD: choco install Ruby. Dit installeert het Ruby platform dat nodig is voor Octopress<br><br><b>Installeren van GIT</b><br>In CMD: choco install git. Dit installeert het GIT platform dat nodig is om op Github te pushen<br><br><b>Installeren van Ruby Dev Kit</b><br>http://rubyinstaller.org/downloads/ , open cmd in de map waar het geextract is, dan: ruby dk.rb init, dan ruby dk.rb install<br><br><b>Installeren van Octopress</b><br>Dit gebeurt via: git clone git://github.com/imathis/octopress.git Titel_van_de_werkmap<br><br><b>Gebruik van octopress</b><br>Eerst moeten we bepaalde "Gems" installeren vooraleer we octopress kunnen gebruikendit doen we in Git bash(cd naar je werkmap) via:<br>1. gem install bundler<br>2. bundle install<br><br><br><b>Installeren van Rake</b><br>Als alles goed is gelopen, kunnen we nu:<br><br>>Rake install<br>>>Rake generate && rake preview<br><br>surf nu naar localhost: 4000<br>Voila, octopress is draaiend.<br>om nieuwe posts te maken:<br>> new_post["Titelvandepost"]<br><br>om nieuwe paginas te maken:<br>> new_post["Titelvandepagina]<br><br><br><b>Homebrew</b><br>Zoals ik bij mijn introductie al aanhaalde, heb ik ook een eigen SSG gecreërt. Redelijk simpel te gebruiken en schreef weg naar een mooi template toe. Toch vond ik het nogal raar om niet elk detail gemakkelijk te kunnen bewerken, dus begon ik weer terug te vallen naar HTML toe. Dit werd ook mijn uiteindelijke beslissing.<br>Op vlak van effiëcientie zijn SSG’s altijd sneller geweest, maar op vlak van flexibiliteit vind ik HTML toch nog altijd wel heel er prachtig.<br></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="testimonial">
+                                
+                                <h4>HTML/CSS/JS</h4>
+                                <div class="speech">
+                                    <p><b>Waarom</b><br>Mijn keuze tegenover HTML ligt vooral bij de flexibiliteit. Alles is zoveer gemakkelijk en sneller bewerkt. Je kan tot in detail elk klein aspect van je website bewerken. Mijn SSG maakte gebruik van een mooi template dat ik had gecodeert, maar Markdown ondersteund niet alle toepassingen die HTML bied.<br><b>Hoe</b><br>Deze website maakt gebruik van een paar onderdelen:<br><b>HTML5</b><br><b>CSS3</b><br><b>Javascript</b><br><b>Jquery</b><br><br><b>Met behulp van</b><br>Mijn kennis over Websites coderen gaat al ver terug tot het 4de leerjaar. Ik kwam vaak in contact met deze soort dingen en heb het zo baksteen voor baksteen opgebouwd tot wat men een redelijk groot gebouw kan noemen. Natuurlijk moet deze informatie toch een of andere bron hebben!<br>1 Woord:<br><b>Het internet</b></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        
+                    </div><!--/.row -->
+                    
+                </div>
+                
+            </div>
+        </div>
+        <!-- End Testimonial Section -->
+        
     </body>
+    
 </html>
-
-
-
